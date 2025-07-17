@@ -1,0 +1,20 @@
+body {
+    background-color: darkgrey;
+}
+
+header {
+    color: black;
+}
+
+#tasktext {
+    background-color: rgb(0, 0, 0);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    
+}
+
+#addbtn {
+    background-color:black;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+
+}
+
