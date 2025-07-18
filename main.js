@@ -1,14 +1,15 @@
-const addbtnn = document.getElementById("addbtn");
-const tasktextt = document.getElementById("taskinput");
-const taskLists = document.getElementById("tasklist");
+function addTask() {
+    const input = document.getElementById("taskInput");
+    const taskText = input.value.trim();
 
-function addtask () {
-    const tasktextt = tasktextt.value.trim();
-    if (tasktextt === "") return;
+    if (taskText === "") return;
 
     const li = document.createElement("li");
-    li.textContent = tasktextt;
-    
+    li.textContent = taskText;
+
+    const ul = document.getElementById("taskList");
+    ul.appendChild(li);
+    input.value = ""
 }
 
-addbtnn.addEventListener("click", addtask);
+    

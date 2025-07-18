@@ -6,20 +6,21 @@
     <title>to-do-list</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    
 </head>
 <body>
     <div class="grid-container">
 
         <header>
-            <h1><b>to-do-list</b></h1>
+            <h1>to-do-list</h1>
         </header>
         <div class="box">
-         <input type="text" id="taskinput" placeholder="Adicionar nova tarefa...">
-        <button id="addbtn">+</button>
-        <ul id="tasklist"></ul>
+        <input type="text" id="taskInput" placeholder="Adicionar nova tarefa...">
+        <button onclick="addTask()">+</button>
+        <ul id="taskList"></ul>
         </div>
     </div>
+
+    <script src='main.js'></script>
 </body>
-<script src='main.js'></script>
 </html>
