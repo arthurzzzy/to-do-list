@@ -20,11 +20,6 @@ header {
 
 }
 
-.list {
-    font-family: "Winky Rough", sans-serif;
-    font-size: 18px;
-    -webkit-text-fill-color: #F8F4E3;
-    }
 
 .box {
     background-color: #706C61;
@@ -62,9 +57,17 @@ header {
     border: 0;
     border-radius: 3px;
     margin-left: 2%;
+    cursor: pointer;
+}
 
-    
+#addbtn :hover {
+    text-decoration: solid;
     
 
 }
 
+#taskList {
+    font-family: "Winky Rough", sans-serif;
+    font-size: 20px;
+    -webkit-text-fill-color: #F8F4E3;
+    }
