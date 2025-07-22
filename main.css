@@ -60,14 +60,218 @@ header {
     cursor: pointer;
 }
 
-#addbtn :hover {
-    text-decoration: solid;
+#addbtn:hover {
+    background-color: #F8F4E3;
+    -webkit-text-fill-color: #2A2B2A;
     
 
-}
+} 
 
-#taskList {
+#taskList li {
+    justify-content: space-between;
+    display: flex;
     font-family: "Winky Rough", sans-serif;
     font-size: 20px;
     -webkit-text-fill-color: #F8F4E3;
     }
+
+#taskList button {
+    font-size: 20px;
+    -webkit-text-fill-color: brown;
+    background: 0;
+    border: 0;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}    
+
+#taskList button:hover {
+    background-color: #F8F4E3;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.7;
+}
+
+
+@media (max-width:1200px) { 
+
+ header {
+    font-family: "Winky Rough", sans-serif;
+    font-size: 20px;
+    color: #2A2B2A;
+    grid-column: 2;
+    margin-top: 20%;
+}
+
+.grid-container {
+    color: #2A2B2A;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    padding:20px;
+
+}
+
+
+.box {
+    background-color: #706C61;
+    grid-column: 2;
+    height: fit-content;
+    padding: 4%;
+    border-radius: 3px;
+    width: 120%;
+
+    
+}
+
+#taskInput {
+    font-family: "Winky Rough", sans-serif;
+    background-color: #302B27;
+    -webkit-text-fill-color: #F8F4E3;
+    font-size: 15px;
+    grid-column: 2;
+    border: 0;
+    border-radius: 3px;
+    text-align: center;
+    position: relative;
+    width: 80%;
+    
+    
+}
+
+#addbtn {
+    background: none;
+    background-color:#302B27;
+    -webkit-text-fill-color: #F8F4E3;
+    font-size: 15px;
+    grid-column: 3;
+    margin-top: 0;
+    width: 5ch;
+    border: 0;
+    border-radius: 3px;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+#addbtn:hover {
+    background-color: #F8F4E3;
+    -webkit-text-fill-color: #2A2B2A;
+    
+
+} 
+
+#taskList li {
+    justify-content: space-between;
+    display: flex;
+    font-family: "Winky Rough", sans-serif;
+    font-size: 20px;
+    -webkit-text-fill-color: #F8F4E3;
+    }
+
+#taskList button {
+    font-size: 20px;
+    -webkit-text-fill-color: brown;
+    background: 0;
+    border: 0;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}    
+
+#taskList button:hover {
+    background-color: #F8F4E3;
+}
+}
+
+@media (max-width:800px) { 
+
+ header {
+    font-family: "Winky Rough", sans-serif;
+    font-size: 20px;
+    color: #2A2B2A;
+    grid-column: 1;
+    margin-top: 20%;
+}
+
+.grid-container {
+    color: #2A2B2A;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+    padding:20px;
+
+}
+
+
+.box {
+    background-color: #706C61;
+    grid-column: 1;
+    height: fit-content;
+    padding: 4%;
+    border-radius: 3px;
+    width: 150%;
+
+    
+}
+
+#taskInput {
+    font-family: "Winky Rough", sans-serif;
+    background-color: #302B27;
+    -webkit-text-fill-color: #F8F4E3;
+    font-size: 15px;
+    grid-column: 1;
+    border: 0;
+    border-radius: 3px;
+    text-align: center;
+    position: relative;
+    width: 80%;
+    
+    
+}
+
+#addbtn {
+    background: none;
+    background-color:#302B27;
+    -webkit-text-fill-color: #F8F4E3;
+    font-size: 15px;
+    grid-column: 2;
+    margin-top: 0;
+    width: 5ch;
+    border: 0;
+    border-radius: 3px;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+#addbtn:hover {
+    background-color: #F8F4E3;
+    -webkit-text-fill-color: #2A2B2A;
+    
+
+} 
+
+#taskList li {
+    justify-content: space-between;
+    display: flex;
+    font-family: "Winky Rough", sans-serif;
+    font-size: 20px;
+    -webkit-text-fill-color: #F8F4E3;
+    }
+
+#taskList button {
+    font-size: 20px;
+    -webkit-text-fill-color: brown;
+    background: 0;
+    border: 0;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}    
+
+#taskList button:hover {
+    background-color: #F8F4E3;
+}
+}
